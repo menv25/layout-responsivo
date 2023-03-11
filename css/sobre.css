@@ -24,11 +24,23 @@
     color: var(--cinza-escuro);
     font-weight: 700;
 }
-
+.sobre__texto--divisao
 .sobre__plataformas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
     margin-bottom: 1rem;
+}
+.sobre__imagem {
+    display:none;
+}
+@media screen and (min-width: 1024px) {
+    .sobre {
+        display: flex;
+    }
+    .sobre__conteudo {
+        margin-right: 3rem;
+    }
+    
 }

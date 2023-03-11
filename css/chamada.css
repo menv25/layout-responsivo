@@ -30,3 +30,20 @@
 .chamada_botao {
     width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .chamada_texto {
+        max-width: 600px;
+    }
+}
+@media screen and (min-width: 1024px) {
+   .chamada {
+      background-image: url(../img/bg-intro.jpg);
+      background-size: cover;
+       padding-top: 8.25rem;
+}
+    .chamada_titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
